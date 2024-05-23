@@ -4,18 +4,20 @@
 
 1. [Introduction](#introduction)
 2. [Scenario](#scenario)
-3. [Scope and goals of the audit](#goals)
-4. [Internal Security Audit Workflow](#workflow)
-5. [Controls Assessment](#control-assessment)
-6. [Compliance Checklist](#compliance-checklist)
-7. [Stakeholder Memorandum](#stakeholder-memo)
-8. [Conclusion](#conclusion)
+3. [General Steps](#general-steps)
+4. [Information Provided](#information-provided)
+5. [Scope and goals of the audit](#goals)
+6. [Internal Security Audit Workflow](#workflow)
+7. [Controls Assessment](#control-assessment)
+8. [Compliance Checklist](#compliance-checklist)
+9. [Stakeholder Memorandum](#stakeholder-memo)
+10. [Conclusion](#conclusion)
 
 -------
 
 # Introduction <a name="introduction">
 
-Botium Toys, a fictitious toy company, was used to test the cybersecurity portfolio and as part of Google's <a href='https://www.coursera.org/google-certificates/cybersecurity-certificate'>Cybersecurity Professional Certificate</a> on Coursera in the  <a href='https://www.coursera.org/learn/manage-security-risks?specialization=cybersecurity-certificate'> Play It Safe: Manage Security Risks </a> Course.
+For this project I will conduct a simplistic audit on Botium Toys, a fictitious toy company, that is a part of Google's <a href='https://www.coursera.org/google-certificates/cybersecurity-certificate'>Cybersecurity Professional Certificate</a> on Coursera in the  <a href='https://www.coursera.org/learn/manage-security-risks?specialization=cybersecurity-certificate'> Play It Safe: Manage Security Risks </a> Course.
 
 
 # Scenario  <a name="scenario">
@@ -25,7 +27,7 @@ The manager of the IT department has decided that an internal IT audit needs to 
 
 The IT manager starts by implementing the **National Institute of Standards and Technology Cybersecurity Framework** (NIST CSF), establishing an audit scope and goals, and completing a risk assessment. The goal of the audit is to provide an overview of the risks the company might experience due to the current state of its security posture. The IT manager wants to use the audit findings as evidence to obtain approval to expand his department.
 
-## General Steps <a name="workflow">
+## General Steps <a name="gneral-steps">
 
 To ensure the efficiency of this audit, we will adhere to the five steps imparted by the Google CyberSecurity Certificate.
 
@@ -35,33 +37,18 @@ To ensure the efficiency of this audit, we will adhere to the five steps imparte
 4. Creating a Mitigation plan
 5. Communicate Results to Stakeholders
 
-I've performed a very basic security audit, considering this is new in my cybersecurity journey I will only be focusing on step 3, having already been provided with steps 1 and 2.
+Considering this is my very first security audit, I am still familiarizing myself with the Cybersecurity vernacular. In this specific project, I will only be focusing on step 3, having already been provided with steps 1 and 2.
 
 ------------------------
 
-## Internal Security Audit Workflow  <a name="workflow">
-The internal security audit can be broken down into two parts each with its steps to follow.
-
-### Part 1
-1. Analyze the audit scope, audit goals, and risk assessment given above
-2. Conduct the Audit
-   - Complete Controls assessment 
-     - Select controls needing to be implemented.
-     - Rate each selected control on priority (i.e. needing to be implemented immediately or in the future).
-   - Complete Compliance checklist
-     - Explain why selected compliance regulations and standards need to be adhered to.
-### Part 2
-1. Review results and deliverables completed in Part 1, Step #2
-   - make note of findings
-   - consider how to summarize your recommendations clearly and concisely to stakeholders. 
-2. Send findings and recommendations to stakeholders in a concise format
+# Information Provided <a name="information-provided">
 
 ## Scope and Goals of the Audit  <a name="goals">
 
 The scope and goal for Botium Toys’ internal IT audit are:
 
 **Scope**
-- The scope of this audit is defined as the entire security program at Botium
+- This audit is defined as the entire security program at Botium
 Toys
 - This includes their assets like employee equipment and devices, their internal
 network, and their systems.
@@ -74,8 +61,6 @@ determine which controls and compliance best practices that need to be implement
 to improve Botium Toys’ security posture.
 
 ## Assets and risk assessment
-
-report
 
 Current Assets 
 --------------
@@ -160,6 +145,8 @@ front, and warehouse of products, has sufficient locks, up-to-date
 closed-circuit television (CCTV) surveillance, as well as functioning fire
 detection and prevention systems.
 
+## Conducting the Audit
+
 
 Controls Assessment  <a name="control-assessment">
 ===================
@@ -223,17 +210,13 @@ To review compliance regulations and standards, read the [controls, frameworks, 
 | No | Data is available to individuals authorized to access it | Data is available to employees in the organization, however authorization needs to be limited to only indivuduals who need to access it for their department |
 
 
+**Recommendations:**
 
-**Summary/Recommendations:**
+To conclude Botium Toys' security stance and safeguard sensitive data, a range of controls should be implemented. These include Least Privilege, disaster recovery protocols, robust password policies, separation of duties, an Intrusion Detection System (IDS), continual management of legacy systems, encryption capabilities, and a proficient password management system.
 
-It is recommended that the critical findings relating to compliance with PCI and GDPR be promptly addressed as Botium Toys accepts online payments is expanding to offer services and handle the data of customers abroad including the European Union. SOC1 and SOC2 guidance related to user access policies should be used to align to the audit goal to adapt to the concept of least permissions to develop the policies and procedures needed to be compliant.
+To bridge compliance shortfalls, Botium Toys should enact essential controls like Least Privilege, separation of duties, and encryption. Additionally, the company should diligently categorize assets to pinpoint any supplementary controls necessary for enhancing security posture and fortifying the defense of sensitive data.
 
-Disaster recovery plans and backups are recommended as they will support business continuity in the event of an incident occuring ranging from a physical disaster such as a fire, or worse case scenario of a cyber attack or technical issue impacting business productivity  as a part of a data and system resilience strategy. A method of fire detection and prevention systems is worth consideration for protecting against physical attacks.
 
-Integrating an IDS and AV software into current systems will give the ability to assist with intrusion detection and spot and mitigate potential risks while taking into account the existing legacy systems that need manual monitoring and intervention. 
-
-To secure assets at Botium Toys' phyiscal location, locks and CCTV should be used to secure physical assets and to monitor for potential threats. Having a time-controlled safe, adequate lighting, and signage indicating alarm service provider will further improve Botium Toys' security posture.
-   
 # Conclusion  <a name="conclusion">
  This concludes my mock security audit writeup, I hope you found it useful and enlightening as I have. If there is any constructive feedback or  suggestions to improve and include, just let me know. 
  
