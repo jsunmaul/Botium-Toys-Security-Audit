@@ -166,7 +166,7 @@ Controls Assessment  <a name="control-assessment">
 
 
 ### Administrative Controls 
- Control Name | Does Botium Toys currently have this control in place? (Yes or No) | Explanation/Reasoning |
+ Control Name | Is this control in place? (Yes or No) | Explanation/Reasoning |
 | --- | --- | --- |
 | Least Privilege | No | All employees have access to customer data; rights to access data must be limited to reduce the risk of a breach. |
 | Disaster recovery plans | No | For the sake of business continuity, there must be disaster recovery plans in place. | 
@@ -174,7 +174,7 @@ Controls Assessment  <a name="control-assessment">
 | Separation of duties | No | This needs to be implemented to reduce the possibility of fraud/access to critical data since the company CEO currently runs day-to-day operations |
 
 ### Technical Controls
-| Control Name | Does Botium Toys currently have this control in place? (Yes or No) | Explanation/Reasoning |
+| Control Name | Is this control in place? (Yes or No) | Explanation/Reasoning |
 | --- | --- | --- |
 | Firewall | Yes | The organization already has a firewall that blocks traffic based on an appropriately defined set of security rules | 
 | Intrusion Detection System (IDS) | No | An IDS must be put in place to help identify possible intrusions by threat actors |
@@ -185,7 +185,7 @@ Controls Assessment  <a name="control-assessment">
 | Password management system | No | There is no password management system currently in place; implementing this control would improve the IT department/other employee productivity in the case of password issues | 
 
 ### Physical Controls
-| Control Name | Does Botium Toys currently have this control in place? (Yes or No) | Explanation/Reasoning |
+| Control Name | Is this control in place? (Yes or No) | Explanation/Reasoning |
 | --- | --- | --- |
 | Closed-circuit television (CCTV) surveillance | Yes | CCTV is installed and functioning at the physical location | 
 | Locks | Yes | The store's location has physical locks to protect from break-ins |
@@ -196,7 +196,7 @@ Compliance checklist
 
 To review compliance regulations and standards, read the [controls, frameworks, and compliance](https://www.coursera.org/learn/foundations-of-cybersecurity/supplement/xu4pr/controls-frameworks-and-compliance) document.
 
-Does Botium Toys currently adhere to this compliance best practice?
+**Does Botium Toys currently adhere to this compliance best practice?**
 
 ### Payment Card Industry Data Security Standard (PCI DSS)
 | Yes/No | Best Practice | Explanation |
@@ -206,34 +206,22 @@ Does Botium Toys currently adhere to this compliance best practice?
 | No | Implement data encryption procedures to better secure credit card transaction touchpoints and data. | Botium toys does not use encryption. They lack confidentiality for their users |
 | No | Adopt secure password management policies. | No password management system is in place. |
 
+### General Data Protection Regulation (GDPR)
+| Yes/No | Best Practice | Explanation |
+| --- | --- | --- |
+| No | E.U. customers’ data is kept private/secured | Botium toys does not currently use encryption to ensure confidentiality for their users |
+| Yes | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach | There is that plan in place |
+| No | Ensure data is properly classified and inventoried | Current assets have not been classified but have been inventoried/listed | 
+| Yes | Enforce privacy policies, procedures, and processes to properly document and maintain data | Privacy policies, procedures, and processes have been developed and enforced among IT team members and other employees |
 
+### System and Organizations Controls (SOC type 1, SOC type 2)
+| Yes/No | Best Practice | Explanation |
+| --- | --- | --- |
+| No | User access policies are established | All employees have access to internally stored data | 
+| No | Sensitive data (PII/SPII) is confidential/private | Botium toys does not have encryption, leaving PII/SPII vulnerable |
+| Yes | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | Data integrity is in place | 
+| No | Data is available to individuals authorized to access it | Data is available to employees in the organization, however authorization needs to be limited to only indivuduals who need to access it for their department |
 
-   
-
--   Payment Card Industry Data Security Standard (PCI DSS)
-
-    - PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure environment. 
-
-       - Botium Toys must adhere to PCI DSS as it accepts payments online and in person and They also store and process customer credit cards on an international scale. Its requirements and compliance need to be taken seriously based on possible consequences. The consequences of not complying with this standard are more severe in impact: Monetary fines monthly (ranging from 5,000-100,000 USD), costs of forensic audits upon a data breach, payment brand restrictions, damage to brand reputation, and possibility of lawsuit costs in the event of data breaches. 
-
-
--   System and Organizations Controls (SOC type 1, SOC type 2)
-   - The SOC1 and SOC2 are a series of reports that focus on an organization's user access policies at different organizational levels. They are used to assess an organization's financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety. Control failures in these areas can lead to fraud.
-
-      - Botium Toys needs to establish and maintain appropriate user access for internal and external (third-party vendor) personnel to mitigate risk and ensure data safety.
-      - Both of these standards evaluate the effectiveness of a company's internal controls. While SOC1 I focused on financial reporting controls, SOC2 is concerned with information security controls, including customer data safety. 
-----------------
-
-
-
-
-
-
-
-
-
-
-   
 
 
 **Summary/Recommendations:**
@@ -252,6 +240,6 @@ To secure assets at Botium Toys' phyiscal location, locks and CCTV should be use
 
 **What I learned**: 
    
-   The part I struggled with mostly was using much details in my findings in the stakeholder's memorandum. I learned and spent alot of time on this to be more concisely and to the point. I learned to use a list, have my writing proofread and ensure I didnt repeat anything and to filter out information.
+I learned and spent alot of time on this to be more concisely and to the point. I learned to use a list, have my writing proofread and ensure I didnt repeat anything and to filter out information.
    
    I also some trouble initially in explaining how the System and Organizations Controls standard relates to organizational user access policies, confidentiality, privacy, integrity, availability, security, and overall data safety and levels of risks, not just financial compliance while conducting the audit.
