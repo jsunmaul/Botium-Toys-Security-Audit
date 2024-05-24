@@ -1,18 +1,4 @@
 # Botium Toys Mock Security Audit
-
-# Table of contents
-
-1. [Introduction](#introduction)
-2. [Scenario](#scenario)
-3. [General Steps](#general-steps)
-4. [Information Provided](#information-provided)
-5. [Scope and goals of the audit](#goals)
-6. [Internal Security Audit Workflow](#workflow)
-7. [Controls Assessment](#control-assessment)
-8. [Compliance Checklist](#compliance-checklist)
-9. [Stakeholder Memorandum](#stakeholder-memo)
-10. [Conclusion](#conclusion)
-
 -------
 
 # Introduction <a name="introduction">
@@ -39,8 +25,6 @@ To ensure the efficiency of this audit, we will adhere to the five steps imparte
 
 Considering this is my very first security audit, I am still familiarizing myself with the Cybersecurity vernacular. In this specific project, I will only be focusing on step 3, having already been provided with steps 1 and 2.
 
-------------------------
-
 # Information Provided <a name="information-provided">
 
 ## Scope and Goals of the Audit  <a name="goals">
@@ -60,7 +44,7 @@ controls and compliance practices they have in place
 determine which controls and compliance best practices that need to be implemented
 to improve Botium Toys’ security posture.
 
-## Assets and risk assessment
+# Assets and risk assessment <a name="risk-management">
 
 Current Assets 
 --------------
@@ -145,12 +129,11 @@ front, and warehouse of products, has sufficient locks, up-to-date
 closed-circuit television (CCTV) surveillance, as well as functioning fire
 detection and prevention systems.
 
-## Conducting the Audit
+------------------------
 
+# Conducting the Audit
 
-Controls Assessment  <a name="control-assessment">
-===================
-
+## Controls Assessment
 
 ### Administrative Controls 
  Control Name | Is this control in place? (Yes or No) | Explanation/Reasoning |
@@ -207,22 +190,21 @@ To review compliance regulations and standards, read the [controls, frameworks, 
 | No | User access policies are established | All employees have access to internally stored data | 
 | No | Sensitive data (PII/SPII) is confidential/private | Botium toys does not have encryption, leaving PII/SPII vulnerable |
 | Yes | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | Data integrity is in place | 
-| No | Data is available to individuals authorized to access it | Data is available to employees in the organization, however authorization needs to be limited to only indivuduals who need to access it for their department |
-
+| No | Data is available to individuals authorized to access it | Data is available to employees in the organization, however, authorization needs to be limited to only individuals who need to access it for their department |
 
 **Recommendations:**
 
 To conclude Botium Toys' security stance and safeguard sensitive data, a range of controls should be implemented. These include Least Privilege, disaster recovery protocols, robust password policies, separation of duties, an Intrusion Detection System (IDS), continual management of legacy systems, encryption capabilities, and a proficient password management system.
 
-To bridge compliance shortfalls, Botium Toys should enact essential controls like Least Privilege, separation of duties, and encryption. Additionally, the company should diligently categorize assets to pinpoint any supplementary controls necessary for enhancing security posture and fortifying the defense of sensitive data.
+Also, assets must be to pinpoint any supplementary controls necessary for enhancing security posture and fortifying the defense of sensitive data.
 
 
 # Conclusion  <a name="conclusion">
- This concludes my mock security audit writeup, I hope you found it useful and enlightening as I have. If there is any constructive feedback or  suggestions to improve and include, just let me know. 
+This concludes my mock security audit writeup, I hope you found it as useful and enlightening as I have. 
+
+If there is any constructive feedback or  suggestions to improve and include, just let me know. 
  
 
 **What I learned**: 
    
-I learned and spent alot of time on this to be more concisely and to the point. I learned to use a list, have my writing proofread and ensure I didnt repeat anything and to filter out information.
-   
-   I also some trouble initially in explaining how the System and Organizations Controls standard relates to organizational user access policies, confidentiality, privacy, integrity, availability, security, and overall data safety and levels of risks, not just financial compliance while conducting the audit.
+I learned the very basics of what it takes to conduct an audit effectively. Audits take place to ensure organizations are following through on policies and ensuring business continuity and protecting their users. Before I began this project, I didn't understand why audits were conducted. This also exhibits the seriousness and the specificity of the security posture in an organization. 
